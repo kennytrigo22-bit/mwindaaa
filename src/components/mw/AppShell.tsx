@@ -13,7 +13,7 @@ const tabs = [
 export function AppShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background sm:grid sm:place-items-center sm:py-8">
-      <div className="relative mx-auto flex min-h-screen w-full max-w-[420px] flex-col overflow-hidden bg-background sm:min-h-[860px] sm:rounded-[44px] sm:border sm:shadow-card">
+      <div className="relative mx-auto flex h-dvh w-full max-w-[420px] flex-col overflow-hidden bg-background sm:h-[860px] sm:rounded-[44px] sm:border sm:shadow-card">
         <main className="flex-1 overflow-y-auto px-5 pb-32 pt-6">{children}</main>
         <nav
           aria-label="Navigation principale"
